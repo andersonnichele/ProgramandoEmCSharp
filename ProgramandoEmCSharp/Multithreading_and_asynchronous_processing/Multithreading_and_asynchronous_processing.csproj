@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Exemplos\ExecutandoMetodoEmUmaThread.cs" />
     <Compile Include="Exemplos\ParametrizandoInicioThread.cs" />
+    <Compile Include="Exemplos\PararThread.cs" />
     <Compile Include="Exemplos\PropriedadeBackground.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

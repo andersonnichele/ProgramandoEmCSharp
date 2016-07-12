@@ -11,11 +11,17 @@ namespace Multithreading_and_asynchronous_processing
 
             Process.Start("https://github.com/andersonnichele/ProgramandoEmCSharp/wiki");
 
+            #region Entendendo Threads
+
             //ExecutandoMetodoEmUmaThread executandoMetodoEmUmaThread = new ExecutandoMetodoEmUmaThread();
 
             //PropriedadeBackground propriedadeBackground = new PropriedadeBackground();
 
             //ParametrizandoInicioThread parametrizandoInicioThread = new ParametrizandoInicioThread();
+
+            //PararThread pararThread = new PararThread();
+
+            #endregion
         }
     }
 }
