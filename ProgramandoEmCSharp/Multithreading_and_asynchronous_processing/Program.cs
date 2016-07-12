@@ -1,30 +1,57 @@
-﻿using System;
-using System.Threading;
+﻿using Multithreading_and_asynchronous_processing.Exemplos;
+using System;
 
 namespace Multithreading_and_asynchronous_processing
 {
     public class Program
     {
         static void Main(string[] args)
-        {
-            Thread t = new Thread(new ThreadStart(ThreadMethod));
-
-            t.Start();
-
-            t.Join();
-
-            Console.WriteLine("Pressione qualquer tecla para sair");
-
-            Console.ReadKey();
+        {            
+            Menu();
         }
-        
-        public static void ThreadMethod()
+
+        static void Menu()
+        {            
+
+            ConfigurarCorDaFonte(ConsoleColor.Green);
+
+            Console.WriteLine("\n**********Usando a classe Thread**********\n");
+
+            ConfigurarCorDaFonte(ConsoleColor.Gray);
+
+            Console.WriteLine("1 - Executando método em uma Thread");
+            
+            Console.WriteLine("\n0 - Sair \n");
+
+            Selecionaropcao();
+        }
+
+        static void ConfigurarCorDaFonte(ConsoleColor corDaFonte)
         {
-            for (int i = 1; i < 11; i++)
+            Console.ForegroundColor = corDaFonte;
+        }
+        static void Selecionaropcao()
+        {
+
+            string opcaoSelecionada = Console.ReadLine();
+
+            switch (opcaoSelecionada)
             {
-                Console.WriteLine("Processando thread {0}", new String('.', i));
-                Thread.Sleep(150);
+                case "0":
+                    Console.Beep();
+                    Environment.Exit(0);
+                    break;
+                case "1":
+                    ExecutandoMetodoEmUmaThread executandoMetodoEmUmaThread = new ExecutandoMetodoEmUmaThread();
+                    break;
+                default:
+                    Console.Beep();
+                    Console.WriteLine("\nOpção inválida\n");
+                    break;
             }
+           
+            Menu();
         }
+
     }
 }
