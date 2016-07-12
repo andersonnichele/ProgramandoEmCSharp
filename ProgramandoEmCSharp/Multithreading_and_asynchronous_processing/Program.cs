@@ -19,7 +19,7 @@ namespace Multithreading_and_asynchronous_processing
 
             ConfigurarCorDaFonte(ConsoleColor.Gray);
 
-            Console.WriteLine("1 - Executando método em uma Thread");
+            Console.WriteLine("1 - Executar método em uma Thread");
             
             Console.WriteLine("\n0 - Sair \n");
 

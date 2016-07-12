@@ -18,7 +18,7 @@ namespace Multithreading_and_asynchronous_processing.Exemplos
              */
             t.Start();
 
-            /*Bloquei a chamada da Thread até ela terminar */
+            /*Bloqueia a chamada da Thread até ela terminar */
             t.Join();
         }
 
