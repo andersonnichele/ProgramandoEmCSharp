@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exemplos\AtributoThreadStatic.cs" />
     <Compile Include="Exemplos\ExecutandoMetodoEmUmaThread.cs" />
     <Compile Include="Exemplos\ParametrizandoInicioThread.cs" />
     <Compile Include="Exemplos\PararThread.cs" />

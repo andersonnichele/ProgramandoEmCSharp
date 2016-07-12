@@ -21,6 +21,8 @@ namespace Multithreading_and_asynchronous_processing
 
             //PararThread pararThread = new PararThread();
 
+            //AtributoThreadStatic atributoThreadStatic = new AtributoThreadStatic();
+
             #endregion
         }
     }
