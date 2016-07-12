@@ -18,6 +18,15 @@ namespace Multithreading_and_asynchronous_processing.Exemplos
              */
             t.Start();
 
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine("Executando alguma tarefa ... ");
+                
+                /*Utilizado Thread.Sleep() para simular a execução de uma tarefa*/
+                Thread.Sleep(130);
+            }
+
+
             /*Bloqueia a chamada da Thread até ela terminar */
             t.Join();
         }
@@ -26,7 +35,7 @@ namespace Multithreading_and_asynchronous_processing.Exemplos
         {
             for (int i = 1; i < 11; i++)
             {
-                Console.WriteLine("Processando thread {0}", new String('.', i));
+                Console.WriteLine("Processando Thread {0} de 10", i);
                 Thread.Sleep(150);
             }
         }
