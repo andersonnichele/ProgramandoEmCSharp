@@ -1,57 +1,19 @@
 ﻿using Multithreading_and_asynchronous_processing.Exemplos;
 using System;
+using System.Diagnostics;
 
 namespace Multithreading_and_asynchronous_processing
 {
     public class Program
     {
         static void Main(string[] args)
-        {            
-            Menu();
-        }
+        {
 
-        static void Menu()
-        {            
+            Process.Start("https://github.com/andersonnichele/ProgramandoEmCSharp/wiki");
 
-            ConfigurarCorDaFonte(ConsoleColor.Green);
-
-            Console.WriteLine("\n**********Usando a classe Thread**********\n");
-
-            ConfigurarCorDaFonte(ConsoleColor.Gray);
-
-            Console.WriteLine("1 - Executar método em uma Thread");
+            //ExecutandoMetodoEmUmaThread executandoMetodoEmUmaThread = new ExecutandoMetodoEmUmaThread();
             
-            Console.WriteLine("\n0 - Sair \n");
-
-            Selecionaropcao();
+            //PropriedadeBackground propriedadeBackground = new PropriedadeBackground();
         }
-
-        static void ConfigurarCorDaFonte(ConsoleColor corDaFonte)
-        {
-            Console.ForegroundColor = corDaFonte;
-        }
-        static void Selecionaropcao()
-        {
-
-            string opcaoSelecionada = Console.ReadLine();
-
-            switch (opcaoSelecionada)
-            {
-                case "0":
-                    Console.Beep();
-                    Environment.Exit(0);
-                    break;
-                case "1":
-                    ExecutandoMetodoEmUmaThread executandoMetodoEmUmaThread = new ExecutandoMetodoEmUmaThread();
-                    break;
-                default:
-                    Console.Beep();
-                    Console.WriteLine("\nOpção inválida\n");
-                    break;
-            }
-           
-            Menu();
-        }
-
     }
 }
