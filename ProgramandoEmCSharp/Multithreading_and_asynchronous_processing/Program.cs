@@ -23,6 +23,8 @@ namespace Multithreading_and_asynchronous_processing
 
             //AtributoThreadStatic atributoThreadStatic = new AtributoThreadStatic();
 
+            //ClasseThreadLocal ClasseThreadLocal = new ClasseThreadLocal();
+
             #endregion
         }
     }
