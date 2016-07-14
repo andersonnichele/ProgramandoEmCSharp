@@ -25,6 +25,7 @@ namespace Multithreading_and_asynchronous_processing
 
             //ClasseThreadLocal ClasseThreadLocal = new ClasseThreadLocal();
 
+            //ThreadPools threadPools = new ThreadPools();
             #endregion
         }
     }
