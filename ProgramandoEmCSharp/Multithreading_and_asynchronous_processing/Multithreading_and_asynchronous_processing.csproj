@@ -51,6 +51,7 @@
     <Compile Include="Exemplos\EntendoThreads\PropriedadeBackground.cs" />
     <Compile Include="Exemplos\EntendoThreads\ThreadPools.cs" />
     <Compile Include="Exemplos\UtilizandoTasks\IniciarAguardarTask.cs" />
+    <Compile Include="Exemplos\UtilizandoTasks\TaskContinueWith.cs" />
     <Compile Include="Exemplos\UtilizandoTasks\TaskComRetorno.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
