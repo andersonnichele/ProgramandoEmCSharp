@@ -1,4 +1,5 @@
-﻿using Multithreading_and_asynchronous_processing.Exemplos;
+﻿using Multithreading_and_asynchronous_processing.Exemplos.EntendoThreads;
+using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoTasks;
 using System;
 using System.Diagnostics;
 
@@ -26,6 +27,12 @@ namespace Multithreading_and_asynchronous_processing
             //ClasseThreadLocal ClasseThreadLocal = new ClasseThreadLocal();
 
             //ThreadPools threadPools = new ThreadPools();
+            #endregion
+
+            #region Utilizando Tasks
+
+            //IniciarAguardarTask IniciarAguardarTask = new IniciarAguardarTask();
+
             #endregion
         }
     }

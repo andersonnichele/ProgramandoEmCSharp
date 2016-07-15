@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Multithreading_and_asynchronous_processing.Exemplos
+namespace Multithreading_and_asynchronous_processing.Exemplos.EntendoThreads
 {
 
     /*Adaptado de https://msdn.microsoft.com/pt-br/library/mt679040.aspx */

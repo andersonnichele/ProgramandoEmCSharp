@@ -43,13 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exemplos\AtributoThreadStatic.cs" />
-    <Compile Include="Exemplos\ClasseThreadLocal.cs" />
-    <Compile Include="Exemplos\ExecutandoMetodoEmUmaThread.cs" />
-    <Compile Include="Exemplos\ParametrizandoInicioThread.cs" />
-    <Compile Include="Exemplos\PararThread.cs" />
-    <Compile Include="Exemplos\PropriedadeBackground.cs" />
-    <Compile Include="Exemplos\ThreadPools.cs" />
+    <Compile Include="Exemplos\EntendoThreads\AtributoThreadStatic.cs" />
+    <Compile Include="Exemplos\EntendoThreads\ClasseThreadLocal.cs" />
+    <Compile Include="Exemplos\EntendoThreads\ExecutandoMetodoEmUmaThread.cs" />
+    <Compile Include="Exemplos\EntendoThreads\ParametrizandoInicioThread.cs" />
+    <Compile Include="Exemplos\EntendoThreads\PararThread.cs" />
+    <Compile Include="Exemplos\EntendoThreads\PropriedadeBackground.cs" />
+    <Compile Include="Exemplos\EntendoThreads\ThreadPools.cs" />
+    <Compile Include="Exemplos\UtilizandoTasks\IniciarAguardarTask.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
