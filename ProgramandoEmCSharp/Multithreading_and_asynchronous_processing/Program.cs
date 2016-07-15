@@ -31,7 +31,9 @@ namespace Multithreading_and_asynchronous_processing
 
             #region Utilizando Tasks
 
-            //IniciarAguardarTask IniciarAguardarTask = new IniciarAguardarTask();
+            //IniciarAguardarTask iniciarAguardarTask = new IniciarAguardarTask();
+
+            //TaskComRetorno taskComRetorno = new TaskComRetorno();
 
             #endregion
         }
