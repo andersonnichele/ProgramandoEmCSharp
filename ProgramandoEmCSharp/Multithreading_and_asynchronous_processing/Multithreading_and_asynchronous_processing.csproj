@@ -50,11 +50,14 @@
     <Compile Include="Exemplos\EntendoThreads\PararThread.cs" />
     <Compile Include="Exemplos\EntendoThreads\PropriedadeBackground.cs" />
     <Compile Include="Exemplos\EntendoThreads\ThreadPools.cs" />
+    <Compile Include="Exemplos\UtilizandoTasks\FilhosComTaskFactory.cs" />
     <Compile Include="Exemplos\UtilizandoTasks\IniciarAguardarTask.cs" />
     <Compile Include="Exemplos\UtilizandoTasks\TaskContinueWith.cs" />
     <Compile Include="Exemplos\UtilizandoTasks\TaskComRetorno.cs" />
     <Compile Include="Exemplos\UtilizandoTasks\TasksContinuationOptions.cs" />
     <Compile Include="Exemplos\UtilizandoTasks\TasksFilhos.cs" />
+    <Compile Include="Exemplos\UtilizandoTasks\TasksWaitAll.cs" />
+    <Compile Include="Exemplos\UtilizandoTasks\TasksWaitAny.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

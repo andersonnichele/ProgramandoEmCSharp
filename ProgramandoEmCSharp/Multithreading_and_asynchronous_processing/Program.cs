@@ -41,6 +41,12 @@ namespace Multithreading_and_asynchronous_processing
 
             //TasksFilhos tasksFilhos = new TasksFilhos();
 
+            //FilhosComTaskFactory filhosComTaskFactory = new FilhosComTaskFactory();
+
+            //TasksWaitAll tasksWaitAll = new TasksWaitAll();
+
+            //TasksWaitAny tasksWaitAny = new TasksWaitAny();
+
             #endregion
         }
     }

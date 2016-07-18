@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Multithreading_and_asynchronous_processing.Exemplos.UtilizandoTasks
@@ -12,7 +9,7 @@ namespace Multithreading_and_asynchronous_processing.Exemplos.UtilizandoTasks
         public TasksFilhos()
         {
 
-            /*Task tera como retorno um vetor de string, cada elemento do vetor será gerado por um filho da task*/
+            /*Task terá como retorno um vetor de string, cada elemento do vetor será gerado por um filho da task*/
             Task<string[]> task = Task.Run(() =>
             {
                 var resultados = new string[3];
