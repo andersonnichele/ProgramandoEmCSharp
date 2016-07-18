@@ -1,4 +1,5 @@
 ﻿using Multithreading_and_asynchronous_processing.Exemplos.EntendoThreads;
+using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoClasseParallel;
 using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoTasks;
 using System;
 using System.Diagnostics;
@@ -46,6 +47,14 @@ namespace Multithreading_and_asynchronous_processing
             //TasksWaitAll tasksWaitAll = new TasksWaitAll();
 
             //TasksWaitAny tasksWaitAny = new TasksWaitAny();
+
+            #endregion
+
+            #region Utilizando a Classe Parallel
+
+            //ParallelForEForeachcs parallelForEForeachcs = new ParallelForEForeachcs();
+
+            //ParallelBreak parallelBreak = new ParallelBreak();
 
             #endregion
         }
