@@ -54,6 +54,7 @@
     <Compile Include="Exemplos\UtilizandoTasks\TaskContinueWith.cs" />
     <Compile Include="Exemplos\UtilizandoTasks\TaskComRetorno.cs" />
     <Compile Include="Exemplos\UtilizandoTasks\TasksContinuationOptions.cs" />
+    <Compile Include="Exemplos\UtilizandoTasks\TasksFilhos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
