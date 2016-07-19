@@ -50,6 +50,7 @@
     <Compile Include="Exemplos\EntendoThreads\PararThread.cs" />
     <Compile Include="Exemplos\EntendoThreads\PropriedadeBackground.cs" />
     <Compile Include="Exemplos\EntendoThreads\ThreadPools.cs" />
+    <Compile Include="Exemplos\UtilizandoAsyncEAwait\AsyncAwait.cs" />
     <Compile Include="Exemplos\UtilizandoClasseParallel\ParallelBreak.cs" />
     <Compile Include="Exemplos\UtilizandoClasseParallel\ParallelForEForeachcs.cs" />
     <Compile Include="Exemplos\UtilizandoTasks\FilhosComTaskFactory.cs" />
@@ -65,6 +66,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exemplos\UtilizandoPLINQ\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

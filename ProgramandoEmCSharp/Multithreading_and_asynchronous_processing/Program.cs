@@ -1,6 +1,7 @@
 ﻿using Multithreading_and_asynchronous_processing.Exemplos.EntendoThreads;
 using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoClasseParallel;
 using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoTasks;
+using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoAsyncEAwait;
 using System;
 using System.Diagnostics;
 
@@ -55,6 +56,18 @@ namespace Multithreading_and_asynchronous_processing
             //ParallelForEForeachcs parallelForEForeachcs = new ParallelForEForeachcs();
 
             //ParallelBreak parallelBreak = new ParallelBreak();
+
+            #endregion
+
+            #region Utilizando async e await
+
+            //AsyncAwait AsyncAwait = new AsyncAwait();
+
+            #endregion
+
+            #region Utilizando Parallel Language Integrated Query (PLINQ)
+
+
 
             #endregion
         }
