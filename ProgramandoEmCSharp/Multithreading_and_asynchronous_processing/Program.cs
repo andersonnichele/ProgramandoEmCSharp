@@ -4,6 +4,7 @@ using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoTasks;
 using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoAsyncEAwait;
 using System;
 using System.Diagnostics;
+using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoPLINQ;
 
 namespace Multithreading_and_asynchronous_processing
 {
@@ -67,7 +68,15 @@ namespace Multithreading_and_asynchronous_processing
 
             #region Utilizando Parallel Language Integrated Query (PLINQ)
 
+            //UtilizandoAsParallel utilizandoAsParallel = new UtilizandoAsParallel();
 
+            //QueryParallelOrdenada queryParallelOrdenada = new QueryParallelOrdenada();
+
+            //QueryParallelSequencial queryParallelSequencial = new QueryParallelSequencial();
+
+            //ParallelForAll parallelForAll = new ParallelForAll();
+
+            //CatchingAggregateException catchingAggregateException = new CatchingAggregateException();
 
             #endregion
         }
