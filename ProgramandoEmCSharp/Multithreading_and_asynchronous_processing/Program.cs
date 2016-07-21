@@ -14,7 +14,7 @@ namespace Multithreading_and_asynchronous_processing
         static void Main(string[] args)
         {
 
-            //Process.Start("https://github.com/andersonnichele/ProgramandoEmCSharp/wiki");
+            Process.Start("https://github.com/andersonnichele/ProgramandoEmCSharp/wiki");
 
             #region Entendendo Threads
 
