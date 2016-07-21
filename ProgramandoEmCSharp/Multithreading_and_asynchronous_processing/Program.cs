@@ -5,6 +5,7 @@ using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoAsyncEAwait;
 using System;
 using System.Diagnostics;
 using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoPLINQ;
+using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoConcurrentCollections;
 
 namespace Multithreading_and_asynchronous_processing
 {
@@ -13,7 +14,7 @@ namespace Multithreading_and_asynchronous_processing
         static void Main(string[] args)
         {
 
-            Process.Start("https://github.com/andersonnichele/ProgramandoEmCSharp/wiki");
+            //Process.Start("https://github.com/andersonnichele/ProgramandoEmCSharp/wiki");
 
             #region Entendendo Threads
 
@@ -77,6 +78,14 @@ namespace Multithreading_and_asynchronous_processing
             //ParallelForAll parallelForAll = new ParallelForAll();
 
             //CatchingAggregateException catchingAggregateException = new CatchingAggregateException();
+
+            #endregion
+
+            #region Utilizando Concurrent collections
+
+            //UtilizandoBlockingCollection utilizandoBlockingCollection = new UtilizandoBlockingCollection();
+
+            GetConsumingEnumerableBlockingCollection getConsumingEnumerableBlockingCollection = new GetConsumingEnumerableBlockingCollection();
 
             #endregion
         }

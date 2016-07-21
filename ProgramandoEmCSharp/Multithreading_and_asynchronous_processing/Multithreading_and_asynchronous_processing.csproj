@@ -53,6 +53,8 @@
     <Compile Include="Exemplos\UtilizandoAsyncEAwait\AsyncAwait.cs" />
     <Compile Include="Exemplos\UtilizandoClasseParallel\ParallelBreak.cs" />
     <Compile Include="Exemplos\UtilizandoClasseParallel\ParallelForEForeachcs.cs" />
+    <Compile Include="Exemplos\UtilizandoConcurrentCollections\GetConsumingEnumerableBlockingCollection.cs" />
+    <Compile Include="Exemplos\UtilizandoConcurrentCollections\UtilizandoBlockingCollection.cs" />
     <Compile Include="Exemplos\UtilizandoPLINQ\CatchingAggregateException.cs" />
     <Compile Include="Exemplos\UtilizandoPLINQ\ParallelForAll.cs" />
     <Compile Include="Exemplos\UtilizandoPLINQ\QueryParallelOrdenada.cs" />
