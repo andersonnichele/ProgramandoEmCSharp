@@ -1,9 +1,9 @@
-﻿using Multithreading_and_asynchronous_processing.Exemplos.EntendoThreads;
+﻿using System;
+using System.Diagnostics;
+using Multithreading_and_asynchronous_processing.Exemplos.EntendoThreads;
 using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoClasseParallel;
 using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoTasks;
 using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoAsyncEAwait;
-using System;
-using System.Diagnostics;
 using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoPLINQ;
 using Multithreading_and_asynchronous_processing.Exemplos.UtilizandoConcurrentCollections;
 
@@ -85,8 +85,19 @@ namespace Multithreading_and_asynchronous_processing
 
             //UtilizandoBlockingCollection utilizandoBlockingCollection = new UtilizandoBlockingCollection();
 
-            GetConsumingEnumerableBlockingCollection getConsumingEnumerableBlockingCollection = new GetConsumingEnumerableBlockingCollection();
+            //GetConsumingEnumerableBlockingCollection getConsumingEnumerableBlockingCollection = new GetConsumingEnumerableBlockingCollection();
 
+            //UtilizandoConcurrentBag UtilizandoConcurrentBag = new UtilizandoConcurrentBag();
+
+            //EnumerableConcurrentBag enumerableConcurrentBag = new EnumerableConcurrentBag();
+
+            /*LIFO*/
+            //UtilizandoConcurrentStack utilizandoConcurrentStack = new UtilizandoConcurrentStack();
+
+            /*FIFO*/
+            //UtilizandoConcurrentQueue UtilizandoConcurrentQueue = new UtilizandoConcurrentQueue();
+
+            //UtilizandoConcurrentDictionary utilizandoConcurrentDictionary = new UtilizandoConcurrentDictionary();
             #endregion
         }
     }
