@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GerenciandoFluxo", "Gerenci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading_and_asynchronous_processing", "Multithreading_and_asynchronous_processing\Multithreading_and_asynchronous_processing.csproj", "{F9B2F938-F344-4188-ADBB-9F78C4A8F674}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manage_multithreading", "Manage_multithreading\Manage_multithreading.csproj", "{458BB2C2-723B-4CBC-92EA-0050F3A998C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +19,16 @@ Global
 		{F9B2F938-F344-4188-ADBB-9F78C4A8F674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9B2F938-F344-4188-ADBB-9F78C4A8F674}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9B2F938-F344-4188-ADBB-9F78C4A8F674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458BB2C2-723B-4CBC-92EA-0050F3A998C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458BB2C2-723B-4CBC-92EA-0050F3A998C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458BB2C2-723B-4CBC-92EA-0050F3A998C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458BB2C2-723B-4CBC-92EA-0050F3A998C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F9B2F938-F344-4188-ADBB-9F78C4A8F674} = {42391C5B-8681-4F32-9421-14A7D8725657}
+		{458BB2C2-723B-4CBC-92EA-0050F3A998C0} = {42391C5B-8681-4F32-9421-14A7D8725657}
 	EndGlobalSection
 EndGlobal
