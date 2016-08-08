@@ -11,7 +11,7 @@ namespace Events_Callbacks
         static void Main(string[] args)
         {
 
-            //Process.Start("https://github.com/andersonnichele/ProgramandoEmCSharp/wiki");
+            Process.Start("https://github.com/andersonnichele/ProgramandoEmCSharp/wiki");
 
             #region Utilizando Delegates
 

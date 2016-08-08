@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program_Flow", "Program_Fow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events_Callbacks", "Events_Callbacks\Events_Callbacks.csproj", "{86AA36D9-CCF8-4B9E-B665-8CB7F819F2DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{28791B76-3515-45AD-9DF8-0D2B3BE31F24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{86AA36D9-CCF8-4B9E-B665-8CB7F819F2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86AA36D9-CCF8-4B9E-B665-8CB7F819F2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86AA36D9-CCF8-4B9E-B665-8CB7F819F2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28791B76-3515-45AD-9DF8-0D2B3BE31F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28791B76-3515-45AD-9DF8-0D2B3BE31F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28791B76-3515-45AD-9DF8-0D2B3BE31F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28791B76-3515-45AD-9DF8-0D2B3BE31F24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +50,6 @@ Global
 		{458BB2C2-723B-4CBC-92EA-0050F3A998C0} = {42391C5B-8681-4F32-9421-14A7D8725657}
 		{16B9BA8E-5B08-4E28-BC64-CD843F456069} = {42391C5B-8681-4F32-9421-14A7D8725657}
 		{86AA36D9-CCF8-4B9E-B665-8CB7F819F2DF} = {42391C5B-8681-4F32-9421-14A7D8725657}
+		{28791B76-3515-45AD-9DF8-0D2B3BE31F24} = {42391C5B-8681-4F32-9421-14A7D8725657}
 	EndGlobalSection
 EndGlobal

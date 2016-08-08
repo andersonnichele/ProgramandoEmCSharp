@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{86AA36D9-CCF8-4B9E-B665-8CB7F819F2DF}</ProjectGuid>
+    <ProjectGuid>{28791B76-3515-45AD-9DF8-0D2B3BE31F24}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Events_Callbacks</RootNamespace>
-    <AssemblyName>Events_Callbacks</AssemblyName>
+    <RootNamespace>ExceptionHandling</RootNamespace>
+    <AssemblyName>ExceptionHandling</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,24 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exemplos\UtilizandoDelegates\MulticastingDelegate.cs" />
-    <Compile Include="Exemplos\UtilizandoDelegates\UtilizandoDelegate.cs" />
-    <Compile Include="Exemplos\UtilizandoEvents\ActionEvent.cs" />
-    <Compile Include="Exemplos\UtilizandoEvents\CustomizarAcessoEvent.cs" />
-    <Compile Include="Exemplos\UtilizandoEvents\ExceptionEvent.cs" />
-    <Compile Include="Exemplos\UtilizandoEvents\PadronizandoAgumentosEvent.cs" />
-    <Compile Include="Exemplos\UtilizandoEvents\EventArgsCustomizado.cs" />
-    <Compile Include="Exemplos\UtilizandoEvents\SintaxeEvent.cs" />
-    <Compile Include="Exemplos\UtilizandoEvents\TratamentoExcecaoEvent.cs" />
-    <Compile Include="Exemplos\UtilizandoLambda\ActionDelegate.cs" />
-    <Compile Include="Exemplos\UtilizandoLambda\LambdaCriandoDelegate.cs" />
+    <Compile Include="Exemplos\ExcecaoCustomizada\ExcecaoCustomizada.cs" />
+    <Compile Include="Exemplos\LancandoExcecoes\ClasseExceptionDispatchInfo.cs" />
+    <Compile Include="Exemplos\LancandoExcecoes\ExcecoesComuns.cs" />
+    <Compile Include="Exemplos\LancandoExcecoes\ThrowArgumentNullException.cs" />
+    <Compile Include="Exemplos\TratandoExcecoes\ConversaoInvalida.cs" />
+    <Compile Include="Exemplos\TratandoExcecoes\InspecionandoExcecoes.cs" />
+    <Compile Include="Exemplos\TratandoExcecoes\TratandoExcecao.cs" />
+    <Compile Include="Exemplos\TratandoExcecoes\TratandoMultiplasExcecoes.cs" />
+    <Compile Include="Exemplos\TratandoExcecoes\TryCatchFinally.cs" />
+    <Compile Include="Exemplos\TratandoExcecoes\UtilizandoEnvironmentFailFast.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
